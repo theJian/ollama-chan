@@ -1,0 +1,13 @@
+{
+	"name": "@shared/typescript-config",
+	"version": "0.0.0",
+	"private": true,
+	"devDependencies": {
+		"@tsconfig/next": "^2.0.3",
+		"@tsconfig/recommended": "^1.0.7"
+	},
+	"exports": {
+		"./base": "./tsconfig.base.json",
+		"./next": "./tsconfig.next.json"
+	}
+}
